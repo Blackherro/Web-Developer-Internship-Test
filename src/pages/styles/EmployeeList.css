@@ -1,0 +1,30 @@
+.employee-list {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 20px 0; 
+  }
+  
+  .employee-list th, .employee-list td {
+    border: 1px solid #ddd; 
+    padding: 12px 15px; 
+    text-align: left; 
+  }
+  
+  .employee-list th {
+    background-color: #007bff; 
+    color: white; 
+    font-weight: bold; 
+  }
+  
+  .employee-list tbody tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  
+  .employee-list tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .employee-list td {
+    text-align: center;
+  }
+  
